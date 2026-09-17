@@ -1,113 +1,237 @@
 <!doctype html>
 <html lang="zh-Hans">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>严雪桦 — 简历</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>严雪桦 | Personal Portfolio</title>
+    <meta
+      name="description"
+      content="严雪桦的个人介绍网页：香港岭南大学 Arts Technology and Business 在读研究生，专注品牌传播、活动策划与创意运营。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-1"></div>
+      <div class="ambient ambient-2"></div>
+      <div class="ambient ambient-3"></div>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="container">
-    <header class="header">
-      <div class="header-left">
-        <h1 class="name">严雪桦</h1>
-        <p class="tagline">市场营销 | 新媒体运营 | 活动策划</p>
-      </div>
-      <div class="header-right">
-        <ul class="meta">
-          <li><strong>母语：</strong>中文（普通话）</li>
-          <li><strong>英语：</strong>流利</li>
-          <li><strong>在读：</strong>香港岭南大学 MSc in Arts Technology and Business（2026.09 入学）</li>
-          <li><strong>毕业：</strong>广东金融学院，市场营销，2025 届</li>
-          <li><strong>联系方式：</strong>（请替换：电话 / 邮箱 / LinkedIn）</li>
-        </ul>
-      </div>
-    </header>
-
-    <section class="content">
-      <aside class="sidebar">
-        <div class="card">
-          <h3>技能</h3>
-          <ul class="skills">
-            <li>新媒体平台运营（小红书、公众号）</li>
-            <li>KOL/达人对接与内容合作</li>
-            <li>活动策划与执行（线上＋线下）</li>
-            <li>问卷设计与数据整理、研究报告撰写</li>
-            <li>Office（Word / Excel / PowerPoint）</li>
-          </ul>
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">YH</div>
+          <span>严雪桦</span>
         </div>
 
-        <div class="card">
-          <h3>语言</h3>
-          <p>中文（母语） / 英语（流利）</p>
-        </div>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#about">关于我</a>
+          <a href="#focus">研究方向</a>
+          <a href="#experience">经历</a>
+          <a href="#contact">联系</a>
+        </nav>
 
-        <div class="card">
-          <h3>校园经历</h3>
-          <p>校学生会秘书处 干事 — 参与组织与策划 50+ 场校园活动，负责对接与执行。</p>
-        </div>
-      </aside>
+        <a class="button button-primary" href="#contact">联系我</a>
+      </header>
 
-      <section class="main">
-        <div class="section-block">
-          <h2>实习经历</h2>
+      <main>
+        <section class="hero section-frame">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Lingnan University · ATB · 研究生在读</span>
+            <h1>
+              <span class="title-main">严雪桦</span>
+              <span class="title-sub">Creative Strategist &amp; Storyteller</span>
+            </h1>
+            <p class="intro-text">
+              我是一名热爱品牌传播与文化创意的跨界思考者，专注于新媒体运营、活动策划与创意表达，
+              目前在香港岭南大学 Arts Technology and Business 专业攻读研究生。喜欢把洞察、故事与设计
+              融合成一份有温度、有张力的传播体验。
+            </p>
 
-          <article class="job">
-            <h3>北鼎科技（杯壶组） — 媒体传播实习</h3>
-            <p class="period">实习生</p>
-            <ul>
-              <li>负责小红书达人合作与官方账号日常运营；月均对接约 100 位达人，优化合作流程与内容方向。</li>
-              <li>通过内容与互动运营为官方账号带来粉丝增长超 1,500（月均成果），并定期产出数据报告以驱动策略调整。</li>
+            <div class="cta-row">
+              <a class="button button-primary" href="#experience">查看经历</a>
+              <a class="button button-ghost" href="#about">了解更多</a>
+            </div>
+
+            <ul class="quick-stats" aria-label="个人特质">
+              <li><strong>4+</strong><span>行业实践</span></li>
+              <li><strong>30+</strong><span>项目参与</span></li>
+              <li><strong>3</strong><span>核心方向</span></li>
             </ul>
-          </article>
+          </div>
 
-          <article class="job">
-            <h3>赛博极客科技 — 市场实习</h3>
-            <p class="period">实习生</p>
-            <ul>
-              <li>主导策划并执行“科技潮流节”线下活动，活动带动线下到店增长 29.7%，线上曝光超 50 万次。</li>
-              <li>负责公司微信公众号的内容规划与运营，活动期间为公众号带来粉丝增长超 2,000。</li>
-            </ul>
-          </article>
-        </div>
+          <div class="hero-art reveal" aria-label="个人视觉展示">
+            <div class="art-card art-card-main">
+              <div class="mini-label">Personal Brand</div>
+              <div class="portrait-figure">
+                <div class="portrait-circle">
+                  <div class="portrait-core"></div>
+                </div>
+              </div>
+              <div class="art-card-info">
+                <div>
+                  <span class="label">身份</span>
+                  <strong>ATB研究生</strong>
+                </div>
+                <div>
+                  <span class="label">方向</span>
+                  <strong>传播 &amp; 创意</strong>
+                </div>
+              </div>
+            </div>
 
-        <div class="section-block">
-          <h2>科研经历</h2>
-          <article class="research">
-            <h3>核心研究员 — 《营销转化中的信任型公共关系研究》</h3>
-            <ul>
-              <li>参与问卷设计、样本收集与数据整理（共 162 份问卷）。</li>
-              <li>基于数据分析验证公关信任对消费者转化意愿具有中介作用，并参与研究报告的撰写与结论讨论。</li>
-            </ul>
-          </article>
-        </div>
+            <div class="floating-tag floating-tag-top">品牌策划</div>
+            <div class="floating-tag floating-tag-bottom">新媒体运营</div>
+          </div>
+        </section>
 
-        <div class="section-block">
-          <h2>教育背景</h2>
-          <ul class="edu">
-            <li>
-              <strong>香港岭南大学 (Lingnan University)</strong> — MSc in Arts Technology and Business，2026.09 入学（在读）
-            </li>
-            <li>
-              <strong>广东金融学院</strong> — 本科，市场营销，2025 届
-            </li>
-          </ul>
-        </div>
+        <section id="about" class="section-frame section-space reveal">
+          <div class="section-heading">
+            <span class="section-index">01</span>
+            <h2>关于我</h2>
+          </div>
 
-        <div class="section-block">
-          <h2>求职意向</h2>
-          <p>市场策划 / 新媒体运营 / 品牌传播 / 活动运营 / 相关研究岗位</p>
-        </div>
-      </section>
-    </section>
+          <div class="about-grid">
+            <div class="story-card">
+              <p>
+                我的优势在于把“数据”和“故事”放在一起看：既会理解用户情绪与传播场景，也能把创意落到
+                具体运营动作中。我在校期间参与过活动策划、品牌社媒运营、问卷调研与内容分析，逐渐建立起
+                一套以人群洞察为核心、以传播策略为方向的创意思维。
+              </p>
+              <p>
+                我喜欢用温柔但有力度的表达方式连接人和品牌。我相信传播不只是发声，而是让体验被记住；
+                因此我关注内容的情绪、节奏和场景感，也重视跨平台协同与长期品牌价值增长。
+              </p>
+            </div>
 
-    <footer class="footer">
-      <p>模版说明：色系为马卡龙风格，简约响应式设计。请替换页首联系方式并根据投递岗位调整“求职意向”与“技能”关键词。</p>
-    </footer>
-  </main>
-</body>
+            <div class="chips-wrap" aria-label="个人标签">
+              <span>活动策划</span>
+              <span>品牌传播</span>
+              <span>内容运营</span>
+              <span>创意表达</span>
+              <span>社媒增长</span>
+              <span>用户研究</span>
+              <span>故事设计</span>
+              <span>跨文化沟通</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="focus" class="section-frame section-space reveal">
+          <div class="section-heading">
+            <span class="section-index">02</span>
+            <h2>研究方向</h2>
+          </div>
+
+          <div class="focus-grid">
+            <article class="focus-card">
+              <div class="icon-badge">01</div>
+              <h3>品牌传播</h3>
+              <p>从品牌定位、传播叙事到内容体系构建，帮助品牌在内容与情绪间建立清晰且有辨识度的表达。</p>
+            </article>
+
+            <article class="focus-card">
+              <div class="icon-badge">02</div>
+              <h3>活动策划</h3>
+              <p>结合市场动线、平台传播与现场体验，设计兼具参与性和传播性的活动方案与执行机制。</p>
+            </article>
+
+            <article class="focus-card">
+              <div class="icon-badge">03</div>
+              <h3>数据洞察</h3>
+              <p>关注用户反馈、内容表现和传播复盘，通过结构化分析提升内容策略与品牌决策的有效性。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section-frame section-space reveal">
+          <div class="section-heading">
+            <span class="section-index">03</span>
+            <h2>经历与能力</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="time-tag">2026 - 至今</div>
+              <div class="timeline-content">
+                <h3>香港岭南大学 · Arts Technology and Business</h3>
+                <p>研究生在读，持续探索艺术、技术与商业结合的创意实践与跨界思维。</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="time-tag">2024 - 2025</div>
+              <div class="timeline-content">
+                <h3>广东金融学院 · 市场营销专业</h3>
+                <p>学习市场分析、品牌营销、消费者行为和数据研究，建立扎实的传播理论基础。</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="time-tag">实习经历</div>
+              <div class="timeline-content">
+                <h3>北鼎科技 / 赛博极客科技</h3>
+                <p>参与社媒运营、达人合作、活动执行与内容策划，负责品牌露出提升与用户增长相关工作。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-frame section-space reveal">
+          <div class="section-heading">
+            <span class="section-index">04</span>
+            <h2>能力清单</h2>
+          </div>
+
+          <div class="skills-panel">
+            <div class="skill-block">
+              <h3>专业能力</h3>
+              <ul>
+                <li>新媒体平台运营（小红书、公众号、抖音等）</li>
+                <li>KOL/达人对接与内容合作</li>
+                <li>活动策划与执行</li>
+                <li>品牌传播与内容规划</li>
+                <li>问卷设计与数据整理</li>
+              </ul>
+            </div>
+
+            <div class="skill-block">
+              <h3>工具与表达</h3>
+              <ul>
+                <li>Office（Word / Excel / PowerPoint）</li>
+                <li>图文排版与视觉呈现</li>
+                <li>跨平台沟通协调</li>
+                <li>项目复盘与策略优化</li>
+                <li>英文沟通与资料整理</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section-frame section-space contact-panel reveal">
+          <div class="section-heading">
+            <span class="section-index">05</span>
+            <h2>联系我</h2>
+          </div>
+
+          <div class="contact-wrap">
+            <div>
+              <p class="contact-lead">如果你正在寻找一位兼具创意、执行力和传播思维的人，我很期待与你交流。</p>
+            </div>
+            <div class="contact-card">
+              <p><span>邮箱</span> xuehua.yan@example.com</p>
+              <p><span>城市</span> 广州 / 香港</p>
+              <p><span>方向</span> 市场策划 · 新媒体运营 · 品牌传播</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
